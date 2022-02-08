@@ -12,27 +12,32 @@
 </head>
 <body>
 
-    <header> 
-  <nav>
+    <header>
+    <div class="container">
+  <nav class="nav-menu">
     <a  href="WebStudio" class="logo">Web<span class="logo-dark ">Studio</span></a>
-    <ul class="menu-nav list">
-    <li><a href="./index.html" class=" link menu-nav-link-current">Студия</a></li>   
-    <li><a href="./portfolio.html" class=" link menu-nav-link" >Портфолио</a></li> 
-    <li><a href="" class=" link menu-nav-link">Контакты</a></li>   
+    <ul class="menu-nav-list">
+    <li class="item"><a href="./index.html" class=" link menu-nav-link current">Студия</a></li>   
+    <li class="item"><a href="./portfolio.html" class=" link menu-nav-link" >Портфолио</a></li> 
+    <li class="item"><a href="" class=" link menu-nav-link">Контакты</a></li>   
 </ul> 
-</nav>    
 <ul class="menu-int list">
     <li><a href=""class=" link menu-int-link">info@devstudio.com</a></li>
     <li><a href=""class=" link menu-int-link">+38 096 111 11 11</a></li>
 </ul>
+</div> 
     </header>
     <main>
+        
     <section class="hero-list">
+    <div class="container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button class="hero-button" type="button" >Заказать услугу </button>
+        </div>
     </section>
     <section class="section"> 
-        <ul class="list">
+        <div class="container">
+        <ul class=" section-list">
             <li>
             <h3 class="section-title">Внимание к деталям</h3>
             <p class="tekst-title">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -50,12 +55,13 @@
                 <p class="tekst-title">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
-
+    </div>
     </section>
-    
         <section class="section-robota">
+            <div class="container"> 
             <ul class="list"> 
                 <h2 class="section-robota-title">Чем мы занимаемся</h2>
+                <div class="container-img">
                 <li>
                     <img src="./ipg/img1.jpg" alt="печатает код" width="350">
                 </li>
@@ -65,46 +71,59 @@
                 <li>
                     <img src="./ipg/img3.jpg" alt="выбор цвета" width="350">
                 </li>
-
-           
             </ul>
-            
+        </div>
+        </div>
         </section>
-           
-        </section class="section">
-    <ul class="list">
+    
+    
+        </section class="section-komanda">
+        <div class="container">
+    
         <h2 class="section-komanda-title">Наша команда</h2>
-        <li>
+        <ul class="section-komanda-list">
+        <li class="komanda-list">
             <img src="./img/img1.jpg" alt="Игорь Демьяненко" width="270">
+            <div class="card">
         <h3 class="section-employees-title">Игорь Демьяненко</h3>
         <p class="employees-tect">Product Designer</p>
+    </div>
         </li>
-        <li>
+        <li class="komanda-list">
             <img src="./img/img2.jpg" alt="Ольга Репина" width="270">
+            <div class="card">
         <h3 class="section-employees-title">Ольга Репина</h3>
         <p class="employees-tect">Frontend Developer</p>
+    </div>
         </li>
-        <li>
+        <li class="komanda-list">
             <img src="./img/img3.jpg" alt="Николай Тарасов" width="270">
+            <div class="card">
         <h3 class="section-employees-title">Николай Тарасов</h3>
         <p class="employees-tect">Marketing</p>
+    </div>
         </li>
-        <li>
+        <li class="komanda-list">
             <img src="./img/img4.jpg" alt="Михаил Ермаков" width="270">
+            <div class="card">
         <h3 class="section-employees-title">Михаил Ермаков</h3>
-        <p class="employees-tect"></p>UI Designer</p>
+        <p class="employees-tect">UI Designer</p>
+    </div>
         </li>
     </ul>
+</div>
 </section>
 </main>
-<footer>
-<address>
-<ul class="contact list">
+<footer class="podval  list" >
+    <div class="container-podval">
     <a  href="WebStudio" class="contact-logo">Web<span class="contact-logo-dark ">Studio</span></a>
+<address>
+<ul class="contact list"> 
     <li><a class="contact-address-link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
     <li><a class="contact-link"  href="">info@devstudio.com</a></li>
     <li><a class="contact-link"  href="">+38 096 111 11 11</a></li>
 </ul>
+</div>
 </footer>   
 </address>
 </body>
