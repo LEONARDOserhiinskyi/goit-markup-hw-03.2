@@ -21,7 +21,7 @@ list-style: none;
     text-decoration: none;
 }
 .container{
-width: 1230px;
+width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin:0 auto;
@@ -50,12 +50,12 @@ margin-right: 92px;
 .nav-menu{
 display: flex;
 align-items: center;
+padding: 32px;
 }
 /* навигация */
 .menu-nav-list {
 list-style: none;
 display: flex;
-padding: 32px 0 32px 0;
 }
 .menu-nav-list li + li{
 margin-left: 50px;
@@ -94,7 +94,6 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 display: flex;
 display: block;
-padding: 32px 0 32px 0;
 }
 .menu-int-link:hover,
 .menu-int-link:focus {
@@ -108,13 +107,12 @@ padding: 32px 0 32px 0;
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
-    padding: 195px 252px 30px 252px;
-
 }
 .hero-list{
 background-color:var(--title-text-color);
 text-align: center;
-
+padding-top: 200px;
+padding-bottom: 280px;
 
 }
 .hero-title{
@@ -125,7 +123,8 @@ color :white;
 list-style: none;
 display: flex;
 justify-content: center;
-/* margin-right: 30px ; */
+padding-top: 79px;
+padding-bottom: 94px;
 }
 .section-list li+li{
 margin-left: 30px;
@@ -139,7 +138,6 @@ line-height: 1.3;
 letter-spacing: 0.03em;
 list-style: none;
 text-transform: uppercase;
-padding-top: 92px;
 }
 .tekst-title {
 font-weight: 400;
@@ -147,27 +145,33 @@ font-size: 14px;
 line-height: 1;
 letter-spacing: 0.03em;
 /* margin-right: 30px; */
-margin-top: 10px;
-padding-bottom:  92px;
+}
+.section-robota{
+justify-content: center;
+padding-bottom: 94px;
+padding-top: 94px;
+}.list{
+    display: flex;
+justify-content: center;
+text-align: center;
+
 }
 .section-robota-title{
+margin-bottom: 30px;
 color: var(--title-text-color);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.33x;
 text-align: center;
 letter-spacing: 0.03em;
-padding-top:  48px;
 }
-.container-img {
-display: flex;
-justify-content: center;
-margin-top: 48px;
-padding-bottom: 92px;
-text-align: center;
-} 
+
 .section-robota li+li{
 margin-left: 30px;
+}
+.section-komanda{
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .section-komanda-title{
  color: var(--title-text-color);
@@ -176,7 +180,6 @@ font-size: 36px;
 line-height: 1.33;
 text-align: center;
 letter-spacing: 0.03em;
-padding-top: 94px;
 margin-bottom: 50px;
 }
 .section-komanda-list{
@@ -194,17 +197,18 @@ padding-bottom: 30px;
 }
 
 .section-employees-title{
+margin-bottom: 10px;
 color: var(--title-text-color); 
 font-weight: 500;
 font-size: 16px;
-line-height: 0.8;
-letter-spacing: 0.03;
+line-height: 1.19;
+letter-spacing: 0.03em;
  text-align: center;
 }
 .employees-tect{
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.8;
+    line-height: 1.19;
     letter-spacing: 0.03em; 
     text-align: center;   
 }
@@ -219,8 +223,8 @@ font-size: 16px;
 line-height: 1.8;
 font-family:Roboto;
 cursor: pointer; 
-margin: 0px 500px 215px 500px;
 padding: 10px 32px;
+margin-top: 30px;
  
 }
 .hero-button:focus{
@@ -228,27 +232,28 @@ color:#2196F3;
 background-color:white;
 border-color: white;
 } 
-.podval.list{
+/* footer */
+.podval{
 background-color:var(--title-text-color);
-/* display: flex;
-display: block; */
-
-
+font-style:normal; 
+text-decoration:none; 
 }
 .contact{
 background-color:var(--title-text-color);
-text-decoration: none;
+font-style:normal; 
+text-decoration:none; 
 }
 
-.contact-address-link{
+.contact-address-link{  
 color:white ;
 font-weight:400;
 font-size: 14px;
 line-height: 1.8;
 letter-spacing: 0.03em;
-text-decoration: none;
 font-style:normal;
-margin-top: 20px;
+list-style: none;
+text-decoration: none;
+
 }
 .contact-link{
 font-weight:400;
@@ -256,30 +261,20 @@ font-size: 14px;
 line-height: 1.8;
 letter-spacing: 0.03em;
 color: rgb(255, 255, 255,0.6);
-text-decoration: none;
 font-style:normal;
+list-style: none;
+text-decoration: none;
     }
 .contact-logo {
-    text-decoration: none;
     font-family: Raleway;
     font-weight:700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     color:var(--accent-color);
-    text-decoration: none;
-    font-style:normal;
-    padding-top: 60px;      
-    }
-    .container-podval{
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
-padding-top: 60px;
-padding-bottom: 60px;
-margin:0 auto;
-outline: 2px solid tomato;
-    
+    font-style:normal; 
+    text-decoration:none; 
+
     }
     
     .contact-logo-dark{
@@ -287,6 +282,7 @@ outline: 2px solid tomato;
     }
 
     /* portfolio */
+
     .filter-list{
     list-style: none;
     display: flex;
